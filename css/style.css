@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: var(--font-body);;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #777777;
     line-height: 1.7em;
@@ -2509,6 +2509,11 @@ a.btn-link {
     color: #fff
 }
 
+a.link {
+    text-decoration: underline;
+    color:  blue;
+}
+
 .play-button {
     border-radius: 60px;
     -moz-border-radius: 60px;
@@ -2982,6 +2987,10 @@ h3 {
 h3.underline {
     display: inline-block;
     border-bottom: solid 2px #fff
+}
+
+span.bold {
+    font-weight: bold;
 }
 
 h3.s_border {
